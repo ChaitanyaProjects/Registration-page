@@ -39,7 +39,7 @@ document.getElementById("registrationForm").addEventListener("submit", async (e)
       screenshot: base64File
     };
 
-    await fetch("YOUR_GOOGLE_APPS_SCRIPT_WEBAPP_URL", {
+    await fetch("https://script.google.com/macros/s/AKfycbxobFCrFzb_94wRtLzsblKTtMXyPsbTRnkp80-eFC8jYv9uL2BPyv1VgL7VpvPQawdubQ/exec", {
       method: "POST",
       mode: "no-cors",
       body: JSON.stringify(body)
